@@ -16,5 +16,5 @@ else:
     print(f"The weather in {user_input} is: {weather}")
    
     temp_celcius = temp - 273.15
-    print(f"The temperature in {user_input} is: {temp_celcius}°C")
+    print(f"The temperature in {user_input} is: {round(temp_celcius)}°C")
 
